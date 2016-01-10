@@ -1,0 +1,11 @@
+module CGLFW [system] {
+  header "/usr/include/GLFW/glfw3.h"
+  link "glfw"
+  link "X11"
+  link "Xxf86vm"
+  link "Xrandr"
+  link "Xi"
+  link "Xinerama"
+  link "Xcursor"
+  export *
+}
