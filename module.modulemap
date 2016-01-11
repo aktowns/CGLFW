@@ -1,5 +1,5 @@
 module CGLFW [system] {
-  header "/usr/include/GLFW/glfw3.h"
+  header "glfw.h"
   link "glfw"
   link "X11"
   link "Xxf86vm"
